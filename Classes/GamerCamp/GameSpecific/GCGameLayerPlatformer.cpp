@@ -569,7 +569,16 @@ void CGCGameLayerPlatformer::VOnUpdate( f32 fTimeStep )
 
 	//Create timer functions, create timers at appropriate times
 
+
+	CreateTimer( ETimers::eParalyzeTimer, 3.0f );
+	CreateTimer( ETimers::ePulseTimer, 4.0f );
+	CreateTimer( ETimers::eSlowPlayertimer, 3.0f );
 	CreateTimer( ETimers::eLevelTimer, 30.0f );
+
+	//resolve timer functions, set bools when timers are finished
+	
+	//You cant set visible in place other then vonupdate or onenter, so
+	//this cant be extracted to a method
 	if (m_pcGCSprTimeUp != NULL) {
 		if (!m_bLevelTimerFinished)
 		{
@@ -577,16 +586,12 @@ void CGCGameLayerPlatformer::VOnUpdate( f32 fTimeStep )
 		}
 		else
 		{
+
 			m_pcGCSprTimeUp->SetVisible( true );
+			Director::getInstance()->pause();
 		}
 	}
 
-
-	CreateTimer( ETimers::eParalyzeTimer, 3.0f );
-	CreateTimer( ETimers::ePulseTimer, 4.0f );
-	CreateTimer( ETimers::eSlowPlayertimer, 3.0f );
-
-	//resolve timer functions, set bools when timers are finished
 	if (m_bParalyzeTimerComplete) {
 		ResolveTimer( ETimers::eParalyzeTimer );
 	}
@@ -655,6 +660,16 @@ void CGCGameLayerPlatformer::VOnDestroy()
 		delete m_pcGCSprBackGround;
 		m_pcGCSprBackGround = NULL;
 	}
+	if (m_pcGCSprTimeUp != NULL) 
+	{
+		m_pcGCSprTimeUp->DestroySprite();
+		delete m_pcGCSprTimeUp;
+		m_pcGCSprTimeUp = NULL;
+
+
+	}
+
+
 	 
 	///////////////////////////////////////////////////////////////////////////
 	// N.B. because object groups must register manually, 																				  
