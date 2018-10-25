@@ -39,7 +39,7 @@ void CGCObjLevel2Scene::VOnCreate()
 	Point origin = Director::getInstance()->getVisibleOrigin();
 
 	m_pcGCSprYouWin = new CGCObjSprite();
-	m_pcGCSprYouWin->CreateSprite( "TexturePacker/Backgrounds/GameOver/GameOver.plist" );
+	m_pcGCSprYouWin->CreateSprite( "TexturePacker/Backgrounds/WinScreen/YouWin.plist" );
 	m_pcGCSprYouWin->SetResetPosition( b2Vec2( visibleSize.width / 2, visibleSize.height / 2 ) );
 	m_pcGCSprYouWin->SetParent( IGCGameLayer::ActiveInstance(), 1 );
 
