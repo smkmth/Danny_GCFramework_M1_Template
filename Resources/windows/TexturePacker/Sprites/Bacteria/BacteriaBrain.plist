@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>BacteriaBrain.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,0}</string>
+                <key>spriteSize</key>
+                <string>{20,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,32}</string>
+                <key>textureRect</key>
+                <string>{{1,1},{20,32}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>BacteriaBrain.png</string>
+            <key>size</key>
+            <string>{22,34}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:9824ebcedbe188964ba6127d75db327e:cf621a07d756be44fcd076fde2fca0ca:8d351928c1b313e247ac0d5a8609b6c8$</string>
+            <key>textureFileName</key>
+            <string>BacteriaBrain.png</string>
+        </dict>
+    </dict>
+</plist>

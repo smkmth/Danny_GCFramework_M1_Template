@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>Door_Red.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{28,30}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,32}</string>
+                <key>textureRect</key>
+                <string>{{1,1},{28,30}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>DNADoorRed.png</string>
+            <key>size</key>
+            <string>{30,32}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:a44ffead67b05aa47a82142d00cdaa02:4b91755ec53e450d984b41af930eb351:af7b692eeeb4ec027810fffd9662d93b$</string>
+            <key>textureFileName</key>
+            <string>DNADoorRed.png</string>
+        </dict>
+    </dict>
+</plist>

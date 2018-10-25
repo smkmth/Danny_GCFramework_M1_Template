@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>youwin.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{536,372}}</string>
+                <key>offset</key>
+                <string>{-5,29}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{239,169},{536,372}}</string>
+                <key>sourceSize</key>
+                <string>{1024,768}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>WinScreen.png</string>
+            <key>size</key>
+            <string>{538,374}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:a374c7b8bae2458e0bb68668c3b8c17f:df95a9c03cf0683421ab4b0848f72fb5:f234a05b29e957d476da5dc5464c2869$</string>
+            <key>textureFileName</key>
+            <string>WinScreen.png</string>
+        </dict>
+    </dict>
+</plist>

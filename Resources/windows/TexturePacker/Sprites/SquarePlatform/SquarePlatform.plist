@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>squareplatform.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{35,33}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{35,33}}</string>
+                <key>sourceSize</key>
+                <string>{35,33}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>SquarePlatform.png</string>
+            <key>size</key>
+            <string>{37,35}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:a0fad9feb080a3a59e3ac367f517a015:cb24a6c3698c386528d4b2acd170eb1f:fa218cbb3bb70280d527ceda35489928$</string>
+            <key>textureFileName</key>
+            <string>SquarePlatform.png</string>
+        </dict>
+    </dict>
+</plist>

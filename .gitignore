@@ -4,6 +4,7 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # User-specific files
+*.rsuser
 *.suo
 *.user
 *.userosscache
@@ -52,7 +53,6 @@ BenchmarkDotNet.Artifacts/
 project.lock.json
 project.fragment.lock.json
 artifacts/
-**/Properties/launchSettings.json
 
 # StyleCop
 StyleCopReport.xml
@@ -60,7 +60,7 @@ StyleCopReport.xml
 # Files built by Visual Studio
 *_i.c
 *_p.c
-*_i.h
+*_h.h
 *.ilk
 *.meta
 *.obj
@@ -77,6 +77,7 @@ StyleCopReport.xml
 *.tlh
 *.tmp
 *.tmp_proj
+*_wpftmp.csproj
 *.log
 *.vspscc
 *.vssscc
@@ -221,7 +222,7 @@ ClientBin/
 *.publishsettings
 orleans.codegen.cs
 
-# Including strong name files can present a security risk 
+# Including strong name files can present a security risk
 # (https://github.com/github/gitignore/pull/2483#issue-259490424)
 #*.snk
 
@@ -291,8 +292,8 @@ paket-files/
 .idea/
 *.sln.iml
 
-# CodeRush
-.cr/
+# CodeRush personal settings
+.cr/personal
 
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
@@ -317,7 +318,7 @@ __pycache__/
 # OpenCover UI analysis results
 OpenCover/
 
-# Azure Stream Analytics local run output 
+# Azure Stream Analytics local run output
 ASALocalRun/
 
 # MSBuild Binary and Structured Log
@@ -326,5 +327,130 @@ ASALocalRun/
 # NVidia Nsight GPU debugger configuration file
 *.nvuser
 
-# MFractors (Xamarin productivity tool) working folder 
+# MFractors (Xamarin productivity tool) working folder
 .mfractor/
+
+# Local History for Visual Studio
+.localhistory/
+
+# OSX - https://github.com/github/gitignore/blob/master/Global/OSX.gitignore
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+# Windows - https://github.com/github/gitignore/blob/master/Global/Windows.gitignore
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# CMake
+*CMakeCache.txt
+*CMakeFiles/
+*cmake_install.cmake
+*Makefile
+
+# cocos studio
+*.udf
+
+# proj.android
+bin/
+proj.android/assets/
+proj.android/bin/
+proj.android/gen/
+proj.android/libs/
+proj.android/local.properties
+proj.android/obj/
+cocos2d/cocos/platform/android/java/bin/
+cocos2d/cocos/platform/android/java/gen/
+cocos2d/cocos/platform/android/java/local.properties
+cocos2d/cocos/platform/android/java/res/
+.metadata/
+.recommenders/
+
+# proj.android-studio
+.idea/
+*.iml
+proj.android-studio/app/assets/
+proj.android-studio/app/obj/
+proj.android-studio/app/libs/armeabi/
+proj.android-studio/app/libs/armeabi-v7a/
+proj.android-studio/app/libs/x86/
+proj.android-studio/app/gradle.properties
+proj.android-studio/app/local.properties
+proj.android-studio/*/build/
+cocos2d/cocos/platform/android/libcocos2dx/build/
+cocos2d/cocos/platform/android/java/libs/gps/build/
+
+# proj.ios_mac
+cocos2d/build/build/
+cocos2d/build/cocos2d_libs.xcodeproj/xcuserdata/
+proj.ios_mac/build/
+proj.ios_mac/*.xcodeproj/project.xcworkspace
+proj.ios_mac/*.xcodeproj/xcuserdata/
+!*.pch
+
+# proj.linux
+
+# proj.win32
+*.suo
+.vs/
+.vscode/
+cocos2d/cocos/2d/Debug.*/
+cocos2d/cocos/editor-support/spine/proj.win32/Debug.*/
+cocos2d/external/Box2D/proj.win32/Debug.*/
+cocos2d/external/recast/proj.win32/Debug.*/
+cocos2d/cocos/2d/Release.*/
+cocos2d/cocos/editor-support/spine/proj.win32/Release.*/
+cocos2d/external/Box2D/proj.win32/Release.*/
+cocos2d/external/recast/proj.win32/Release.*/
+proj.win32/*.sdf
+proj.win32/*.opensdf
+proj.win32/Debug.*/
+proj.win32/Release.*/
+
+# others
+# CMake
+*CMakeCache.txt
+*CMakeFiles/
+*cmake_install.cmake
+*Makefile
+lib/
+

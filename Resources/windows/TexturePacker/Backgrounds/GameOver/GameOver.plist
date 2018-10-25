@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>GameOver.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{536,372}}</string>
+                <key>offset</key>
+                <string>{6,9}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{250,189},{536,372}}</string>
+                <key>sourceSize</key>
+                <string>{1024,768}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>GameOver.png</string>
+            <key>size</key>
+            <string>{538,374}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:b3e6033582b83c4be0d3b4c6fc66f4bc:fefa6d906a7b7ebc50a9b4fffa984805:bd19d1f2bbc81db4b670cc99d15ce409$</string>
+            <key>textureFileName</key>
+            <string>GameOver.png</string>
+        </dict>
+    </dict>
+</plist>

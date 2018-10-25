@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>Virus_Red.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{26,32}}</string>
+                <key>offset</key>
+                <string>{1,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{4,0},{26,32}}</string>
+                <key>sourceSize</key>
+                <string>{32,32}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>RedVirus.png</string>
+            <key>size</key>
+            <string>{28,34}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:bd958b946cccbd624c3bca5d97f1cf56:e19fe873d9b9ef7477a20f8f310b1e2c:222f74828113d6f256e92e359073969b$</string>
+            <key>textureFileName</key>
+            <string>RedVirus.png</string>
+        </dict>
+    </dict>
+</plist>

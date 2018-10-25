@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>DNA_Cyan.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{20,32}}</string>
+                <key>offset</key>
+                <string>{3,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{9,0},{20,32}}</string>
+                <key>sourceSize</key>
+                <string>{32,32}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>BlueKey.png</string>
+            <key>size</key>
+            <string>{22,34}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:753ebac87d2501af7cbeac4b61925242:dea56de711706f81db4b9cf664715e36:90d9a3473e466ff5fc78331690588915$</string>
+            <key>textureFileName</key>
+            <string>BlueKey.png</string>
+        </dict>
+    </dict>
+</plist>

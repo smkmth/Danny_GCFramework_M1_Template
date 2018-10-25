@@ -1,0 +1,97 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// (C) Gamer Camp / Alex Darby 2018
+// Distributed under the MIT license - see readme.md
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#include <string.h>
+
+#include "GamerCamp/GameSpecific/Platforms/CGCObjGroupAOESlow.h"
+
+#include "GamerCamp/GCObject/GCObjectManager.h"
+#include "GamerCamp/GCCocosInterface/IGCGameLayer.h"
+#include "GamerCamp/GameSpecific/GCGameLayerPlatformer.h"
+#include "GamerCamp/Core/GCTypes.h"
+#include "GamerCamp/GCObject/GCObject.h"
+#include "GamerCamp/GameSpecific/Platforms/GCObjAOEParalysis.h"
+#include "GamerCamp/GCCocosInterface/GCCocosHelpers.h"
+
+
+
+//////////////////////////////////////////////////////////////////////////
+// using
+using namespace cocos2d;
+
+
+
+//////////////////////////////////////////////////////////////////////////
+//
+//////////////////////////////////////////////////////////////////////////
+CGCObjGroupAOESlow::CGCObjGroupAOESlow()
+{
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////
+//
+//////////////////////////////////////////////////////////////////////////
+// virtual
+CGCObjGroupAOESlow::~CGCObjGroupAOESlow()
+{}
+
+void CGCObjGroupAOESlow::VOnGroupResourceAcquire(void)
+{
+
+	CGCObjectGroup::VOnGroupResourceAcquire();
+}
+
+
+//////////////////////////////////////////////////////////////////////////
+// only handle platforms
+//////////////////////////////////////////////////////////////////////////
+//virtual 
+bool CGCObjGroupAOESlow::VHandlesThisTypeId( GCTypeID idQueryType )
+{
+	return( GetGCTypeIDOf(CGCObjGroupAOESlow) == idQueryType );
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////
+// must return the typeid of the CGCObjectGroup derived class
+//////////////////////////////////////////////////////////////////////////
+//virtual 
+GCTypeID CGCObjGroupAOESlow::VGetTypeId( void )
+{
+	return GetGCTypeIDOf( CGCObjGroupAOESlow );
+}
+
+
+//////////////////////////////////////////////////////////////////////////
+//
+//////////////////////////////////////////////////////////////////////////
+//virtual 
+void CGCObjGroupAOESlow::VOnGroupResourceRelease( void )
+{
+	// n.b. this must happen first, as will fail if objects destroyed before 
+	CGCObjectGroup::VOnGroupResourceRelease(); 
+	DestroyPlatforms();
+}
+
+
+
+
+//////////////////////////////////////////////////////////////////////////
+//
+//////////////////////////////////////////////////////////////////////////
+void CGCObjGroupAOESlow::DestroyPlatforms( void )
+{
+	// this iterates the array of registered CGCObjects 
+	// calling the supplied functor then deleting them
+	DestroyObjectsReverseOrder( [&]( CGCObject* pObject )
+	{
+		GCASSERT( GetGCTypeIDOf(CGCObjGroupAOESlow) == pObject->GetGCTypeID(), "wrong type!" );
+		CGCObjSprite* pProjectileAsSprite = static_cast< CGCObjSprite* >( pObject );
+		pProjectileAsSprite->DestroySprite();
+	});
+}
+

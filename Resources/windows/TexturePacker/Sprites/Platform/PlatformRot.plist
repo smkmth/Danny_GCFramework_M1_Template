@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>platformRot.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1,1},{33,97}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{33,97}}</string>
+                <key>sourceSize</key>
+                <string>{33,97}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>PlatformRot.png</string>
+            <key>size</key>
+            <string>{35,99}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:999a9060b9e0d32df17293604b31a499:2f6eea77ffe04d3acd48f2e2ecbec706:3a7d161d2669122b40aad3ed3e8eba8f$</string>
+            <key>textureFileName</key>
+            <string>PlatformRot.png</string>
+        </dict>
+    </dict>
+</plist>
