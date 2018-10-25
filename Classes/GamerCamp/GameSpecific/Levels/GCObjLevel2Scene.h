@@ -8,6 +8,7 @@ class CGCObjLevel2Scene
 	: public IGCGameLayer
 {
 private:
+	CGCObjSprite* m_pcGCSprYouWin;
 
 
 public:

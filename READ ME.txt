@@ -1,0 +1,17 @@
+Hey! This is the official welcome to the build thing. 
+
+///I WILL GO THROUGH ALL OF THIS WITH YOU, ITS PROBABLY A BAD IDEA TO MESS WITH THIS THING TO MUCH///
+
+First things first, you will need to open this game in visual studio. 
+
+You can do this by going into the proj.win32 folder and clicking on the GCFramework.sln file. 
+
+This *should* open the project in visual studio 2017. 
+
+When you are looking at the solution, you need to build it. I will probably do this for you. but its not to hard. You just right click on the thing that says solution 'GCFramework' and click build. 
+
+once its fully built, you can actually run the game by clicking on the Local Windows Debugger buttton with the big triangle on it. 
+
+vvv REPORT ANY BUGS HERE vvv
+https://github.com/smkmth/Danny_GCFramework_M1_Template/issues
+

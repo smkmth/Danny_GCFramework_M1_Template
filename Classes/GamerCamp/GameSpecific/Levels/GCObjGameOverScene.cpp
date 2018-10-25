@@ -88,4 +88,5 @@ void CGCObjGameOverScene::VOnDestroy()
 void CGCObjGameOverScene::Callback_OnResetButton(Ref* pSender)
 {
 	Director::getInstance()->replaceScene(TransitionCrossFade::create(1.0f, TGCGameLayerSceneCreator< CGCGameLayerPlatformer >::CreateScene()));
+
 }
